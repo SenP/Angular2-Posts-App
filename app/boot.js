@@ -1,7 +1,7 @@
-System.register(['@angular/platform-browser-dynamic', './app.component', '@angular/router-deprecated', '@angular/http'], function(exports_1, context_1) {
+System.register(['@angular/platform-browser-dynamic', './app.component', '@angular/router-deprecated', '@angular/http', './common/users.service'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
-    var platform_browser_dynamic_1, app_component_1, router_deprecated_1, http_1;
+    var platform_browser_dynamic_1, app_component_1, router_deprecated_1, http_1, users_service_1;
     return {
         setters:[
             function (platform_browser_dynamic_1_1) {
@@ -15,9 +15,12 @@ System.register(['@angular/platform-browser-dynamic', './app.component', '@angul
             },
             function (http_1_1) {
                 http_1 = http_1_1;
+            },
+            function (users_service_1_1) {
+                users_service_1 = users_service_1_1;
             }],
         execute: function() {
-            platform_browser_dynamic_1.bootstrap(app_component_1.AppComponent, [router_deprecated_1.ROUTER_PROVIDERS, http_1.HTTP_PROVIDERS]);
+            platform_browser_dynamic_1.bootstrap(app_component_1.AppComponent, [router_deprecated_1.ROUTER_PROVIDERS, http_1.HTTP_PROVIDERS, users_service_1.UsersService]);
         }
     }
 });

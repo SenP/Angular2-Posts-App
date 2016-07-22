@@ -8,7 +8,7 @@ import {User} from '../common/user';
 
 @Component({
     templateUrl: 'app/users/user.template.html',
-    providers: [UsersService]
+    providers: []
 })
 
 export class UserComponent implements CanDeactivate, OnInit {
@@ -69,7 +69,7 @@ export class UserComponent implements CanDeactivate, OnInit {
         this._usersService
             .updateUser(this.user)
             .subscribe(newUser => {
-                console.log("created user: " + newUser);
+                //console.log("user: " + JSON.stringify(newUser));
             },
             error => {
                 console.log(error);

@@ -82,7 +82,7 @@ System.register(['@angular/core', '@angular/router-deprecated', '@angular/common
                     this._usersService
                         .updateUser(this.user)
                         .subscribe(function (newUser) {
-                        console.log("created user: " + newUser);
+                        //console.log("user: " + JSON.stringify(newUser));
                     }, function (error) {
                         console.log(error);
                         _this.message = error.message;
@@ -95,7 +95,7 @@ System.register(['@angular/core', '@angular/router-deprecated', '@angular/common
                 UserComponent = __decorate([
                     core_1.Component({
                         templateUrl: 'app/users/user.template.html',
-                        providers: [users_service_1.UsersService]
+                        providers: []
                     }), 
                     __metadata('design:paramtypes', [common_1.FormBuilder, router_deprecated_1.Router, router_deprecated_1.RouteParams, users_service_1.UsersService])
                 ], UserComponent);

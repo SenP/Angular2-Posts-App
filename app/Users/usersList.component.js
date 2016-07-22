@@ -40,6 +40,7 @@ System.register(['@angular/core', '@angular/router-deprecated', '../common/users
                         .getUsers()
                         .subscribe(function (userslist) {
                         _this.usersList = userslist;
+                        _this._usersService.storeUsers(userslist);
                     }, null, function () { return _this.isLoading = false; });
                 };
                 UsersListComponent.prototype.onRemove = function (user) {
@@ -58,7 +59,7 @@ System.register(['@angular/core', '@angular/router-deprecated', '../common/users
                     core_1.Component({
                         templateUrl: 'app/users/usersList.template.html',
                         directives: [router_deprecated_1.ROUTER_DIRECTIVES, spinner_component_1.SpinnerComponent],
-                        providers: [users_service_1.UsersService]
+                        providers: []
                     }), 
                     __metadata('design:paramtypes', [users_service_1.UsersService])
                 ], UsersListComponent);

@@ -7,7 +7,7 @@ import {SpinnerComponent} from '../common/spinner.component';
 @Component({
     templateUrl: 'app/users/usersList.template.html',
     directives: [ROUTER_DIRECTIVES, SpinnerComponent ],
-    providers: [UsersService]
+    providers: []
 })
 
 export class UsersListComponent implements OnInit {
@@ -23,6 +23,7 @@ export class UsersListComponent implements OnInit {
             .getUsers()
             .subscribe(userslist => {
                 this.usersList = userslist;
+                this._usersService.storeUsers(userslist);
             },
             null,
             () => this.isLoading = false
