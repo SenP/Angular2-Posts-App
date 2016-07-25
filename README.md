@@ -22,10 +22,10 @@ As the backend is read-only, Add/Edit/Remove actions are currently in-memory sim
 Screenshots:
 
 Home:
-![Home](https://github.com/SenP/Angular2-Posts-App/blob/master/images/home.PNG)
+![Home](https://github.com/SenP/Angular2-Posts-App/blob/master/images/home.png)
 
 Users List:
-![Users List](https://github.com/SenP/Angular2-Posts-App/blob/master/images/users.PNG)
+![Users List](https://github.com/SenP/Angular2-Posts-App/blob/master/images/users.png)
 
 Create User:
 ![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/create user.PNG)
