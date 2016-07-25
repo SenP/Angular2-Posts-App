@@ -23,4 +23,4 @@ Screenshots:
 
 Home:
 
-![Image of Home Page](https://github.com/SenP/Angular2-Posts-App/images/home.png)
+![Image of Home Page](/blob/master/images/home.PNG)
