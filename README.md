@@ -22,38 +22,38 @@ As the backend is read-only, Add/Edit/Remove actions are currently in-memory sim
 Screenshots:
 
 Home:
-![Home](https://github.com/SenP/Angular2-Posts-App/blob/master/images/home.png)
+![Home](https://github.com/SenP/Angular2-Posts-App/blob/master/images/home.PNG)
 
 Users List:
 ![Users List](https://github.com/SenP/Angular2-Posts-App/blob/master/images/users.png)
 
 Create User:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/create user.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/create user.png)
 
 New User added to the users list:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/new user added.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/new user added.png)
 
 Edit User:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/edit user.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/edit user.png)
 
 Edited user details updated in users list:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/edited user.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/edited user.png)
 
 Delete user confirmation:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/delete user confirmation.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/delete user confirmation.png)
 
 Deleted user removed from users list:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/after user delete.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/after user delete.png)
 
 Posts List:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts list.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts list.png)
 
 Posts for Selected User:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts for user.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts for user.png)
 
 Post Detail and Comments Display:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts and comments.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts and comments.png)
 
 Posts list navigation to last page:
-![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts last page.PNG)
+![Screenshots](https://github.com/SenP/Angular2-Posts-App/blob/master/images/posts last page.png)
 
