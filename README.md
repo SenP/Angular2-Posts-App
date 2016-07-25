@@ -1,8 +1,24 @@
-#Posts App built on Angular 2
+#Posts App built on Angular 2 (RC1)
 
-This is a sample app using Angular2 RC1
+Developed using TypeScript.
 
-It uses http://jsonplaceholder.typicode.com to simulate HTTP calls.
+Demonstrates usage of the following Angular 2 concepts/modules:
+
+- Components
+- Pipes
+- Services / HTTP
+- Change Detection
+- Routing
+- Forms and Data binding
+- Interface/Class models
+- Dependency Injection
+- Providers
+- Custom components (e.g. pagination), 
+- Inter-Component communication using @Input, @Output
+- View encapsulation
+- Bootstrapping providers
+
+Also demonstrates using RxJS Observables instead of Promises to handle async operations.
 
 Features:
 
@@ -16,6 +32,8 @@ Features:
     - Filter Posts by User
     - Pagination of Posts
     - Show associated comments on a Post when clicked
+
+It uses http://jsonplaceholder.typicode.com to simulate HTTP calls.
 
 As the backend is read-only, Add/Edit/Remove actions are currently in-memory simulations.
 
