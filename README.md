@@ -18,3 +18,9 @@ Features:
     - Show associated comments on a Post when clicked
 
 As the backend is read-only, Add/Edit/Remove actions are currently in-memory simulations.
+
+Screenshots:
+
+Home:
+
+![Image of Home Page](/images/home.png)
