@@ -23,4 +23,4 @@ Screenshots:
 
 Home:
 
-![Image of Home Page](images/home.png)
+![Image of Home Page] (/images/home.png)
